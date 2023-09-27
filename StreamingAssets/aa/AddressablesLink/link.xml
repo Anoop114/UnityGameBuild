@@ -4,12 +4,6 @@
     <type fullname="Assets.PC._3rdPerson_Fly.Scripts.PlayerScripts.NewInputData" preserve="all" />
     <type fullname="AudioManager" preserve="all" />
     <type fullname="BasicBehaviour" preserve="all" />
-    <type fullname="Common.ColorBlocks.Scripts.Bullet" preserve="all" />
-    <type fullname="Common.ColorBlocks.Scripts.GameManager" preserve="all" />
-    <type fullname="Common.ColorBlocks.Scripts.LoadFirstLevel" preserve="all" />
-    <type fullname="Common.ColorBlocks.Scripts.ObjectKiller" preserve="all" />
-    <type fullname="Common.ColorBlocks.Scripts.Platform" preserve="all" />
-    <type fullname="Common.ColorBlocks.Scripts.Shooter" preserve="all" />
     <type fullname="ControlsTutorial" preserve="all" />
     <type fullname="Crosshairs" preserve="all" />
     <type fullname="Enemy" preserve="all" />
@@ -18,7 +12,6 @@
     <type fullname="Gun" preserve="all" />
     <type fullname="GunController" preserve="all" />
     <type fullname="HintManagement" preserve="all" />
-    <type fullname="MainMenu" preserve="all" />
     <type fullname="MapGenerator" preserve="all" />
     <type fullname="Menu" preserve="all" />
     <type fullname="MoveBehaviour" preserve="all" />
@@ -27,12 +20,10 @@
     <type fullname="MyLook" preserve="all" />
     <type fullname="PlayerController" preserve="all" />
     <type fullname="Projectile" preserve="all" />
-    <type fullname="RemoveRubble" preserve="all" />
     <type fullname="ScoreKeeper" preserve="all" />
     <type fullname="Shell" preserve="all" />
     <type fullname="SoundLibrary" preserve="all" />
     <type fullname="Spawner" preserve="all" />
-    <type fullname="TheStack" preserve="all" />
     <type fullname="ThirdPersonOrbitCamBasic" preserve="all" />
     <type fullname="TopDownShooter.Player" preserve="all" />
     <type fullname="UnityStandardAssets.ImageEffects.ColorCorrectionCurves" preserve="all" />
@@ -44,8 +35,21 @@
     <type fullname="SoundLibrary/SoundGroup" preserve="nothing" serialized="true" />
     <type fullname="Spawner/Wave" preserve="nothing" serialized="true" />
   </assembly>
+  <assembly fullname="ColorBlock, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="ColorBlock.GamesAndScripts.CommonGames.ColorBlocks.Scripts.Bullet" preserve="all" />
+    <type fullname="ColorBlock.GamesAndScripts.CommonGames.ColorBlocks.Scripts.ColorGameManager" preserve="all" />
+    <type fullname="ColorBlock.GamesAndScripts.CommonGames.ColorBlocks.Scripts.LoadFirstLevel" preserve="all" />
+    <type fullname="ColorBlock.GamesAndScripts.CommonGames.ColorBlocks.Scripts.ObjectKiller" preserve="all" />
+    <type fullname="ColorBlock.GamesAndScripts.CommonGames.ColorBlocks.Scripts.Platform" preserve="all" />
+    <type fullname="ColorBlock.GamesAndScripts.CommonGames.ColorBlocks.Scripts.Shooter" preserve="all" />
+  </assembly>
   <assembly fullname="CommonFunction, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="Common.UIGenericTween" preserve="all" />
+    <type fullname="Common.GamesAndScripts.CommonScript.UI.UIGenericTween" preserve="all" />
+  </assembly>
+  <assembly fullname="Stack, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Stack.GamesAndScripts.CommonGames.Stack.Scripts.MainMenu" preserve="all" />
+    <type fullname="Stack.GamesAndScripts.CommonGames.Stack.Scripts.RemoveRubble" preserve="all" />
+    <type fullname="Stack.GamesAndScripts.CommonGames.Stack.Scripts.TheStack" preserve="all" />
   </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
