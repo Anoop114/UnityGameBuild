@@ -1,39 +1,59 @@
 <linker>
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="AimBehaviourBasic" preserve="all" />
-    <type fullname="Assets.PC._3rdPerson_Fly.Scripts.PlayerScripts.NewInputData" preserve="all" />
-    <type fullname="AudioManager" preserve="all" />
-    <type fullname="BasicBehaviour" preserve="all" />
-    <type fullname="ControlsTutorial" preserve="all" />
-    <type fullname="Crosshairs" preserve="all" />
-    <type fullname="Enemy" preserve="all" />
-    <type fullname="FlyBehaviour" preserve="all" />
-    <type fullname="GameUI" preserve="all" />
-    <type fullname="Gun" preserve="all" />
-    <type fullname="GunController" preserve="all" />
-    <type fullname="HintManagement" preserve="all" />
-    <type fullname="MapGenerator" preserve="all" />
-    <type fullname="Menu" preserve="all" />
-    <type fullname="MoveBehaviour" preserve="all" />
-    <type fullname="MusicManager" preserve="all" />
-    <type fullname="MuzzleFlash" preserve="all" />
-    <type fullname="MyLook" preserve="all" />
-    <type fullname="PlayerController" preserve="all" />
-    <type fullname="Projectile" preserve="all" />
-    <type fullname="ScoreKeeper" preserve="all" />
-    <type fullname="Shell" preserve="all" />
-    <type fullname="SoundLibrary" preserve="all" />
-    <type fullname="Spawner" preserve="all" />
-    <type fullname="ThirdPersonOrbitCamBasic" preserve="all" />
-    <type fullname="TopDownShooter.Player" preserve="all" />
-    <type fullname="UnityStandardAssets.ImageEffects.ColorCorrectionCurves" preserve="all" />
-    <type fullname="UnityStandardAssets.ImageEffects.ScreenSpaceAmbientOcclusion" preserve="all" />
-    <type fullname="UnityStandardAssets.ImageEffects.VignetteAndChromaticAberration" preserve="all" />
-    <type fullname="VirtualJoystick" preserve="all" />
-    <type fullname="MapGenerator/Coord" preserve="nothing" serialized="true" />
-    <type fullname="MapGenerator/Map" preserve="nothing" serialized="true" />
-    <type fullname="SoundLibrary/SoundGroup" preserve="nothing" serialized="true" />
-    <type fullname="Spawner/Wave" preserve="nothing" serialized="true" />
+    <type fullname="CommonGames.TopDownShooter.Scripts.AudioManager" preserve="all" />
+    <type fullname="CommonGames.TopDownShooter.Scripts.Crosshairs" preserve="all" />
+    <type fullname="CommonGames.TopDownShooter.Scripts.Enemy" preserve="all" />
+    <type fullname="CommonGames.TopDownShooter.Scripts.GameUI" preserve="all" />
+    <type fullname="CommonGames.TopDownShooter.Scripts.Gun" preserve="all" />
+    <type fullname="CommonGames.TopDownShooter.Scripts.GunController" preserve="all" />
+    <type fullname="CommonGames.TopDownShooter.Scripts.MapGenerator" preserve="all" />
+    <type fullname="CommonGames.TopDownShooter.Scripts.Menu" preserve="all" />
+    <type fullname="CommonGames.TopDownShooter.Scripts.MusicManager" preserve="all" />
+    <type fullname="CommonGames.TopDownShooter.Scripts.MuzzleFlash" preserve="all" />
+    <type fullname="CommonGames.TopDownShooter.Scripts.MyLook" preserve="all" />
+    <type fullname="CommonGames.TopDownShooter.Scripts.Player" preserve="all" />
+    <type fullname="CommonGames.TopDownShooter.Scripts.PlayerController" preserve="all" />
+    <type fullname="CommonGames.TopDownShooter.Scripts.Projectile" preserve="all" />
+    <type fullname="CommonGames.TopDownShooter.Scripts.ScoreKeeper" preserve="all" />
+    <type fullname="CommonGames.TopDownShooter.Scripts.Shell" preserve="all" />
+    <type fullname="CommonGames.TopDownShooter.Scripts.SoundLibrary" preserve="all" />
+    <type fullname="CommonGames.TopDownShooter.Scripts.Spawner" preserve="all" />
+    <type fullname="CommonGames.TopDownShooter.Scripts.VirtualJoystick" preserve="all" />
+    <type fullname="CommonGames.TopDownShooter.Standard_Assets.Effects.ImageEffects.Scripts.ColorCorrectionCurves" preserve="all" />
+    <type fullname="CommonGames.TopDownShooter.Standard_Assets.Effects.ImageEffects.Scripts.ScreenSpaceAmbientOcclusion" preserve="all" />
+    <type fullname="CommonGames.TopDownShooter.Standard_Assets.Effects.ImageEffects.Scripts.VignetteAndChromaticAberration" preserve="all" />
+    <type fullname="PC._3rdPerson_Fly.Scripts.LevelScripts.ControlsTutorial" preserve="all" />
+    <type fullname="PC._3rdPerson_Fly.Scripts.LevelScripts.HintManagement" preserve="all" />
+    <type fullname="PC._3rdPerson_Fly.Scripts.LevelScripts.ThirdPersonOrbitCamBasic" preserve="all" />
+    <type fullname="PC._3rdPerson_Fly.Scripts.PlayerScripts.AimBehaviourBasic" preserve="all" />
+    <type fullname="PC._3rdPerson_Fly.Scripts.PlayerScripts.BasicBehaviour" preserve="all" />
+    <type fullname="PC._3rdPerson_Fly.Scripts.PlayerScripts.FlyBehaviour" preserve="all" />
+    <type fullname="PC._3rdPerson_Fly.Scripts.PlayerScripts.MoveBehaviour" preserve="all" />
+    <type fullname="PC._3rdPerson_Fly.Scripts.PlayerScripts.NewInputData" preserve="all" />
+    <type fullname="CommonGames.TopDownShooter.Scripts.MapGenerator/Coord" preserve="nothing" serialized="true" />
+    <type fullname="CommonGames.TopDownShooter.Scripts.MapGenerator/Map" preserve="nothing" serialized="true" />
+    <type fullname="CommonGames.TopDownShooter.Scripts.SoundLibrary/SoundGroup" preserve="nothing" serialized="true" />
+    <type fullname="CommonGames.TopDownShooter.Scripts.Spawner/Wave" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="CardFightGame, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="CardFight.AnimationController" preserve="all" />
+    <type fullname="CardFight.Button.RockPaperScissorBtnAction" preserve="all" />
+    <type fullname="CardFight.Card.CardActionController" preserve="all" />
+    <type fullname="CardFight.Card.CardIndividualAction" preserve="all" />
+    <type fullname="CardFight.Card.SliderBehaviour" preserve="all" />
+    <type fullname="CardFight.CardGameManager" preserve="all" />
+    <type fullname="CardFight.MobileDeviceChecker" preserve="all" />
+    <type fullname="CardFight.Player.AIPlayerManager" preserve="all" />
+    <type fullname="CardFight.Player.CardPlayer" preserve="all" />
+    <type fullname="CardFight.Player.PlayerManager" preserve="all" />
+    <type fullname="CardFight.Sound.SoundManager" preserve="all" />
+    <type fullname="CardFight.Sound.SoundMusicController" preserve="all" />
+    <type fullname="CardFight.View.DecideFirstPlayerUIView" preserve="all" />
+    <type fullname="CardFight.View.MouseVisualChanger" preserve="all" />
+    <type fullname="CardFight.View.TimerView" preserve="all" />
+    <type fullname="CardFight.View.Tutorial" preserve="all" />
+    <type fullname="CardFight.View.UIManager" preserve="all" />
+    <type fullname="CardFight.View.WinLooseChecker" preserve="all" />
   </assembly>
   <assembly fullname="ColorBlock, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="ColorBlock.GamesAndScripts.CommonGames.ColorBlocks.Scripts.Bullet" preserve="all" />
@@ -128,6 +148,9 @@
     <type fullname="UnityEngine.Events.ArgumentCache" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.PersistentListenerMode" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.UnityEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.UnityEvent`1[CardFight.View.RockPaperScissorState]" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.ParticleSystem" preserve="all" />
@@ -157,6 +180,7 @@
     <type fullname="UnityEngine.UI.Text" preserve="all" />
     <type fullname="UnityEngine.UI.Toggle" preserve="all" />
     <type fullname="UnityEngine.UI.ToggleGroup" preserve="all" />
+    <type fullname="UnityEngine.UI.VerticalLayoutGroup" preserve="all" />
     <type fullname="UnityEngine.UI.AnimationTriggers" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Button/ButtonClickedEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.ColorBlock" preserve="nothing" serialized="true" />
@@ -169,6 +193,7 @@
   </assembly>
   <assembly fullname="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Canvas" preserve="all" />
+    <type fullname="UnityEngine.CanvasGroup" preserve="all" />
     <type fullname="UnityEngine.CanvasRenderer" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.TextCoreFontEngineModule">
